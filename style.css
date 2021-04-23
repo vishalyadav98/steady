@@ -1,0 +1,438 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+  
+  li {
+    float: right;
+    padding-right: 20px;
+  }
+  
+  #ww{ float:left;
+      padding-left: 20px;}
+  
+  li a {
+    display: block;
+    padding: 8px;
+    color: black;
+  }
+  
+  
+  
+  #button{
+         display: flex;
+         justify-content:flex-end;
+         position: absolute;
+         top: 42px;
+         right: 0px;
+         padding-right: 20px;
+        padding-top: 20px;
+     }
+     .btn{
+      border-radius: 30px;
+      margin-left: 20px;
+     }
+     #searchbtn{
+         color:blanchedalmond;
+         background-color: #fbb804;
+         border-radius: 20px;
+     }
+  
+     .login{
+         background-color: white;
+         color: black;
+         padding: 0px 20px 0px 20px;
+      height: 30px;
+     }
+  .signup{
+      background-color: #fbb804;
+      color: white;
+      padding: 0px 20px 0px 20px;
+      height: 30px;
+  }
+  
+     
+  
+          .banner{
+              background-image: url('images/banner.jpg');
+              background-size: cover;
+              height: 100vh;
+          }
+          .text{
+              color: rgb(255, 255, 255);
+              position: absolute;
+              
+              right: 0px;
+              left: 70%;
+              top: 500px;
+          }
+          .shopbtn{
+           background-color: #fbb804;
+           color:whitesmoke;
+           border-radius: 5px;
+           margin-left: 100px;
+          }
+          #state {
+              letter-spacing: 3px;
+              text-transform: uppercase;
+              font-size: 30px;
+          }
+          #deal{
+                 font-size: 20px;
+                 color: #fbb804;
+                 padding-left: 62px;
+          }
+          .aricon{
+              position: absolute;
+              right: 0px;
+              top: 53px;
+              border-radius: 5px;
+              background-color:#fbb804;
+              border: none;
+              margin-right: 5px;
+          }
+          input[type=text]{
+            border-radius: 15px;
+            background-color: rgb(226, 226, 226);
+            border: none;
+            width: 500px;
+          }
+  
+          .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+   margin-left: 20px;
+    left: 300px;
+  }
+  
+  .topnav a.active {
+   border-bottom: 2px solid white;
+  }
+  .shop2{ float:left; 
+      background-color: #fbb804;
+      color: white;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      margin-left: 0px;
+      padding-right: 20px;
+  }
+  .cart{ float:right;
+    margin-right: 10px; 
+    margin-top: 3px;
+}
+  
+  .head{
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+  }
+  #searchbtn{
+      border: none;
+      margin-left: -20px;
+    
+  }
+  
+  .second{
+   margin-top: 50px;
+  }
+  .box1{
+      height: 50px;
+      width: 100%;
+      background-color: #fbb804;
+      padding: 12px 0px 10px 20px;
+      color:white;
+  }
+  .box2{
+      height: 50px;
+      width: 100%;
+      background-color: #f7f7f7;
+  }
+  .box3{
+      height: 50px;
+      background-color: #f7f7f7;
+      
+  }
+  .arry{
+      float: right;
+      border: none;
+      margin-top: 12px;
+      margin-left: 5px;
+      background-color: white;
+  }
+  .third{
+      margin-top: 50px;;
+  
+  }
+  .col-md{
+      border: 1px solid black;
+      height: 130px;
+      margin-left: 20px;
+  }
+  
+  .thumb{
+      position: absolute;
+      top: 30px;
+      right: 20px;
+  }
+
+  .bann{
+      position: absolute;
+      top: 20px;
+      right: 14px;
+  }
+  .bann2{
+    position: absolute;
+    top: 20px;
+    left: 14px;
+  }
+
+  #bantext{
+    padding-top: 10px; padding-left:10px; float: left; font-size: 12px;
+  }
+
+  #bantext1{
+    padding-top: 10px; padding-right:10px; float:right; font-size: 12px;
+  }
+
+  #stitem{
+    background-color: #fbb804; 
+    color:white; 
+    padding: 2px 10px 2px 10px;
+     font-size: 10px;
+     float: right;
+  }
+  #stitem1{
+    background-color: #fbb804; 
+    color:white; 
+    padding: 2px 10px 2px 10px;
+     font-size: 10px;
+     float: left;
+  }
+  #save{
+      font-size: 30px;
+      padding: 5px 15px 5px 15px;
+      color: white;
+      background-color: black;
+  }
+  .bans{
+      position:absolute;
+      top: 30px;
+      left: 30px;
+  }
+  .bans1{
+    position:absolute;
+    top: 200px;
+    left: 30px;
+  }
+
+  .services{
+      margin-top: 50px;
+      background-image: url('images/service.jpg');
+      
+      
+      background-position: center;
+      height: 200px;
+      text-align: center;
+      color: white;
+      padding-top: 50px;
+      font-size: 25px;
+  }
+
+  .serve{
+      position: relative;
+      top:-100px;
+  }
+
+  #servicename{
+      text-align: center;
+      font-weight: bold;
+      padding-top: 10px;
+  }
+
+  #pp{  
+      margin-left: 21.5px;
+      margin-right: 21.5px;
+      position: relative;
+  }
+  #pprow{
+      margin-left: 70px;
+      margin-top: 30px;
+  }
+
+  #productname{
+      padding-top: 10px;
+  }
+
+  #tag{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: black;
+      color: white;
+      font-size: 10px;
+      padding: 1px 5px 1px 5px;
+
+  }
+
+  strike{
+      font-size: 13px;
+      padding-left: 5px;
+  }
+  #rate{
+      font-size: 13px;
+  }
+
+  .student{
+      margin-top: 30px;
+      background-image: url('images/student.jpg');
+      height: 300px;
+      background-position: center;
+      
+  }
+  #studenthead{
+    text-transform: uppercase; font-size: 25px; font-weight: 1px; letter-spacing: 2px;
+  }
+  .studentbtn{
+    background-color: #fbb804;
+    color:whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+.student{
+    position: relative;
+}
+  .studentban{
+      position: absolute;
+      top: 100px;
+      left: 200px;
+  }
+
+  #smarttab{
+      margin-top: 30px;
+      background-color: #f7f7f7;
+  }
+
+  #smart{
+     
+     margin: 20px 62px 20px 62px;
+  }
+
+  #tagname{
+      float: right;
+      padding-left: 10px;
+      font-size: 10px;
+      font-weight: bold;
+      padding-top: 5px;
+  }
+
+  #icon11{
+    background-color: white;
+     
+     font-size: 30px;
+     color: black;
+     padding: 10px 10px 10px 10px;
+     
+  }
+
+  #about{
+      margin-top: 30px;
+  }
+
+  .about1{
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      padding: 30px 20px 20px 20px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 5px 5px 3px 2px rgb(201, 199, 199);
+  }
+ 
+  #img{
+    margin-left: 130px;
+    margin-top: 30px;
+      
+  }
+
+  .founder{
+    background-color: #fbb804;
+    color:whitesmoke;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px;
+    margin-left: 100px;
+    font-size: 20px;
+    transform: skew(-25deg);
+    width: 60%;
+  }
+  .founder1{
+    background-color: #000000;
+    color:whitesmoke;
+    border-radius: 5px;
+    padding: 3px 20px 3px 20px;
+    margin-left: 130px;
+    font-size: 15px;
+    transform: skew(-25deg);
+    width: 40%;
+  }
+
+  #sampleimg{
+      border-radius: 50%;
+      border: 1px solid black;
+  }
+  
+  .test{
+    font-size: 15px;
+    color: grey;
+
+  }
+  #ssas{
+      padding: 30px 30px 30px 30px;
+  }
+
+  #footli{
+      float:none;
+  }
+  #footer{
+      margin-top: 30px;
+      padding-top: 30px;
+      background-color: #f7f7f7;
+  }
+
+  #footul{
+      padding-top: 10px;
+      
+  }
+
+  #brand{
+      margin-top: 30px;
+  }
+  .flexitems{
+      border: 1px solid black;
+      padding: 10px 15px 10px 15px;
+      text-align: center;
+      margin-left: 30px;
+      width:164px;
+  }
+  .flexitems1{
+    width:164px;
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    
+}
