@@ -67,8 +67,9 @@ ul {
               
               right: 0px;
               left: 70%;
-              top: 500px;
+              top: 250px;
           }
+
           .shopbtn{
            background-color: #fbb804;
            color:whitesmoke;
@@ -157,6 +158,18 @@ ul {
       padding: 12px 0px 10px 20px;
       color:white;
   }
+  .caret {
+    border-top: solid 10px transparent; 
+  border-bottom: solid 10px transparent; 
+  border-left: solid 10px #fbb804; 
+  
+    height: 0; 
+    width: 0; 
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    z-index: 99;
+  }
   .box2{
       height: 50px;
       width: 100%;
@@ -167,13 +180,20 @@ ul {
       background-color: #f7f7f7;
       
   }
-  .arry{
-      float: right;
+   .arry1{
       border: none;
-      margin-top: 12px;
-      margin-left: 5px;
+  padding: 3px 10px 3px 10px;
+    margin-right: 80px;
       background-color: white;
+     
   }
+  .arry{  padding: 3px 10px 3px 10px;
+    border: none;
+    background-color: white;
+    margin-right: 20px;
+   
+}
+
   .third{
       margin-top: 50px;;
   
@@ -395,14 +415,46 @@ ul {
       border-radius: 50%;
       border: 1px solid black;
   }
+  .sample{
+      position: relative;
+  }
   
   .test{
     font-size: 15px;
     color: grey;
-
+   float: right;
+   position: absolute;
+   top: 25px;
+   left: 250px;
+   
+   padding: 20px 40px 20px 20px;
   }
+  #aaa{
+    margin-top: 60px;
+      background-color: #f7f7f7;
+  }
+  .slidebtn1{
+      background-color: white;
+      position: absolute;
+      left: -945px;
+     border: none;
+     
+      
+  }
+  .slidebtn2{
+    background-color: white;
+    
+    position: absolute;
+    right: 0px;
+    border: none;
+}
   #ssas{
       padding: 30px 30px 30px 30px;
+     
+  }
+  #zen{
+      margin-top: 30px;
+      padding: 0px 20px 0px 0px;
   }
 
   #footli{
@@ -435,4 +487,49 @@ ul {
     padding: 10px 15px 10px 15px;
     text-align: center;
     
+}
+
+.slider {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(141, 138, 138);
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+#slidee{
+    
+    border: 1px solid black;
+    height: 80px;
+    width: 150px;
+}
+#qw{
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    padding-top: 20px;
 }
