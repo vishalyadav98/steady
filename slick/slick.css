@@ -2,7 +2,6 @@
 .slick-slider
 {
     position: relative;
-
     display: block;
     box-sizing: border-box;
 
@@ -18,15 +17,35 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+@media screen (max-width: 600px){
+	.slick-slider{
+		position: relative;
+    display: block;
+    box-sizing: border-box;
+    overflow: auto;
+	}
+}
+
 .slick-list
 {
     position: relative;
-
     display: block;
     overflow: hidden;
 
     margin: 0;
     padding: 0;
+}
+
+@media screen (max-width: 600px){
+	.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: auto;
+
+    margin: 0;
+    padding: 0;
+}
 }
 .slick-list:focus
 {
